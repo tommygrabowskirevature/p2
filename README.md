@@ -1,27 +1,32 @@
-# P2
+# Lint Financial Planning
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.0.1.
+Project Description: Lint is a web-based financial-planning application that is used for creating categorized budgets, tracking bill amounts & due dates, and analyzing transaction histories.   
+  
+Technologies Used: Java, Hibernate, Angular 13, Selenium IDE, Spring Boot, Spring Data, AWS RDS, Swagger, Lombok, REST, JUnit, Karma & Jasmine, Protactor, Mockito, PostgreSQL  
+  
+Features:
+1. Login - A user may log into their User Account with a valid Username & Password combination  
+2. Create Budget - A user may create, edit, and track budgets with assigned spending categories and durations  
+3. Connect Account(s) - A user may connect Bank/Credit accounts to their User Account  
+4. View Transactions - A user may view transaction histories related to their connected Bank/Credit accounts  
+5. View Bills - A user may add and track the balances/due dates of bills associated with their User Account  
+6. Transaction Analysis - A user may view records and statistics related to their spending/income such as amount spent within a given time period, average monthly income, total net gain/loss, spending by category, spending by merchant  
+  
 
-## Development server
+Getting Started:   
+Database: Start AWS RDS with the database information found in the < application.properties > file found inside the 'Lint Financial Backend' project folder  
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Backend: Run < Project2Appication.java > inside a Java IDE or command line inside the 'Lint Financial Backend' project folder  
 
-## Code scaffolding
+Frontend: Run command < ng serve -o > in command line inside the 'Lint Financial Frontend' project folder  
+  
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Usage:  
+Application is in unfinished state. Data manipulation must be done directly inside database or manually following Controller URLs  
 
-## Build
+Navigate to http://localhost:4200/ in a web browser to the login page  
+Navigate to http://localhost:4200/users/ to see the User homepage where Accounts, Bills, and Transactions are listed  
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
